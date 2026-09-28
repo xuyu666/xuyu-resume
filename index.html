@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="徐玉的视觉算法工程师个人简历。" />
+  <title>徐玉 — 视觉算法工程师</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#content">跳转到正文</a>
+  <div class="spotlight" aria-hidden="true"></div>
+  <main class="shell" id="content">
+    <header class="intro" aria-label="个人信息">
+      <div>
+        <a class="name" href="#top" aria-label="返回顶部">徐玉</a>
+        <h1>视觉算法工程师</h1>
+        <p class="tagline">专注人脸图像复原、生成式学习与深度学习应用，具备从数据构建到模型训练优化的完整项目经验。</p>
+        <nav class="section-nav" aria-label="章节导航">
+          <a href="#about" data-section="about"><span></span>概览</a>
+          <a href="#experience" data-section="experience"><span></span>经历</a>
+          <a href="#projects" data-section="projects"><span></span>项目</a>
+        </nav>
+      </div>
+      <ul class="socials" aria-label="联系方式">
+        <li><a href="tel:13837514232" aria-label="电话">TEL</a></li>
+        <li><a href="mailto:2622960263@qq.com" aria-label="邮箱">@</a></li>
+        <li><a href="#awards" aria-label="成果">CV</a></li>
+      </ul>
+    </header>
+
+    <div class="content-column">
+      <section id="about" class="section" data-observe>
+        <h2 class="mobile-heading">概览</h2>
+        <p><strong>求职意向：</strong>视觉算法工程师。男，24 岁，汉族，研究生，应届生。</p>
+        <p class="contact-line"><strong>联系方式：</strong><span class="contact-details"><a href="tel:13837514232">13837514232</a><span aria-hidden="true">·</span><a href="mailto:2622960263@qq.com">2622960263@qq.com</a></span></p>
+        <h3 class="education-heading">教育背景</h3>
+        <ul class="education-list" aria-label="教育背景">
+          <li><strong class="education-date">2020.09 — 至今</strong><div><strong>西安工业大学</strong><span>软件工程 · 硕士</span></div></li>
+          <li><strong class="education-date">2015.09 — 2019.09</strong><div><strong>河南城建学院</strong><span>软件工程 · 本科</span></div></li>
+        </ul>
+      </section>
+
+      <section id="experience" class="section" data-observe>
+        <h2 class="mobile-heading">经历</h2>
+        <a class="card experience-card" href="#" aria-label="厦门真景科技公司算法工程师">
+          <div class="card-meta">2022.10 — 2023.04</div>
+          <div><h3>算法工程师 · 厦门真景科技公司 <span aria-hidden="true">↗</span></h3><p>参与证件照换装项目并完成初步效果；深度学习男女分类比赛 2 / 20，PS 创意比赛结果 3 / 20、创意 1 / 20，传统算法比赛 10 / 20。实习后转正。</p><ul class="tags"><li>深度学习</li><li>传统算法</li><li>图像处理</li></ul></div>
+        </a>
+        <a class="resume-link" href="#projects">查看项目经历 <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section id="projects" class="section" data-observe>
+        <h2 class="mobile-heading">项目</h2>
+        <a class="card project-card" href="#" aria-label="人脸图像去模糊项目">
+          <div class="project-thumb thumb-one" aria-hidden="true"><div class="mini-window"><span></span><span></span><span></span><b>DEBLUR</b></div></div>
+          <div><h3>利用特征校正和融合对人脸图像去模糊 <span aria-hidden="true">↗</span></h3><p><strong>2021.04 — 2022.07 · 主要负责人</strong><br>参考 StyleGAN2 设计生成器与卷积权重调制过程；设计高效自注意力特征校正模块，优化生成器与鉴别器的特征融合，并从优化器、Loss 和梯度惩罚项等方面实现稳定分布式训练。在多个挑战性数据集上取得 SOTA，相关成果转化为论文及发明专利。</p><ul class="tags"><li>PyTorch</li><li>GAN</li><li>StyleGAN2</li><li>Attention</li></ul></div>
+        </a>
+        <a class="card project-card" href="#" aria-label="兵马俑面部复原项目">
+          <div class="project-thumb thumb-two" aria-hidden="true"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+          <div><h3>兵马俑面部复原和二次元深度学习方法 <span aria-hidden="true">↗</span></h3><p><strong>2022.05 — 2022.07 · 主要负责人</strong><br>构建兵马俑数据集，选择 GFPGAN 并设计改进生成策略，实现高清人脸复原；精调 AnimatedGanV2，实现高保真度前提下的二次元化。</p><ul class="tags"><li>GFPGAN</li><li>AnimatedGanV2</li><li>数据集构建</li></ul></div>
+        </a>
+        <a class="card project-card" href="#" aria-label="视频跟踪骨干网络项目">
+          <div class="project-thumb thumb-three" aria-hidden="true"><div class="orb"></div></div>
+          <div><h3>学习视频跟踪感知实例的骨干网络 <span aria-hidden="true">↗</span></h3><p><strong>2022.05 — 2022.06 · 图表负责人</strong><br>负责论文图表创作及排版，使用 Visio、PPT、Adobe 制作展示图，使用 MathType、LaTeX 制作表格与公式。</p><ul class="tags"><li>Visio</li><li>Adobe</li><li>LaTeX</li></ul></div>
+        </a>
+        <a class="card experience-card" href="#" aria-label="专业技能与荣誉奖项">
+          <div class="card-meta">SKILLS<br>&amp; AWARDS</div>
+          <div><h3>专业技能与荣誉奖项 <span aria-hidden="true">↗</span></h3><p>熟练掌握 C、Python、Matlab；熟练使用 PyTorch，具备设计、训练神经网络以及调参能力；具备良好的英文科技论文阅读与写作能力。获《一种面向人脸模糊图像复原的生成式学习方法》发明专利第一完成人，并获知名摄影平台米拍高分作品、研究生羽毛球竞赛冠军队伍、MVP、优秀摄影师。</p><ul class="tags"><li>发明专利</li><li>摄影师</li><li>羽毛球冠军</li></ul></div>
+        </a>
+        <a class="archive-link" id="awards" href="mailto:2622960263@qq.com">联系徐玉 <span aria-hidden="true">↗</span></a>
+      </section>
+      <footer><p>徐玉 · 视觉算法工程师 · IJCV 顶刊在投 / EI 会议收录 / SCI 二区在投</p></footer>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
